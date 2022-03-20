@@ -4,55 +4,162 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio assignment</title>
   </head>
   <body>
     <header>
-      <a href="index.html" class="logo"></a>
+      <h4><a href="index.html" class="logo">TOMINE ØDEGÅRD</a></h4>
       <nav>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SAY HELLO</a></li>
+        <div id="menu_btn">☰</div>
+        <ul id="menu" class="hidden">
+          <li><a href="about.html">About</a></li>
+          <li><a href="sayhello.html">Say hello</a></li>
         </ul>
       </nav>
     </header>
     <main>
-        <section id="first_section">
-            <div class="container">
-                <div class="wrapper">
-                    <h1>PORTFOLIO ASSIGNMENT</h1>
-                    <h2>THIS IS A H2</h2>
-                    <h3>THIS I A H3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at urna cursus, tempor felis sit amet, vulputate velit. Aliquam ut condimentum augue. Pellentesque vel porta justo. Phasellus ullamcorper tincidunt arcu in imperdiet. Quisque ultrices lacus nec diam condimentum elementum. Morbi imperdiet varius dictum. Aliquam nec faucibus arcu. Curabitur arcu leo, mollis vitae tortor a, commodo fringilla lectus. </p>
-                    <p> Morbi imperdiet varius dictum. Aliquam nec faucibus arcu. Curabitur arcu leo, mollis vitae tortor a, commodo fringilla lectus. Suspendisse congue eget massa nec auctor. Sed lacinia fringilla justo, sed vehicula nulla cursus eu. Nunc vulputate, erat ac porttitor molestie, ligula libero sodales dui, tincidunt sodales lacus nisi ut metus. Proin eget massa id turpis egestas viverra. In pharetra ac nisl at varius.</p>
-                </div>
+      <section id="first_section card">
+        <div class="h1_wrapper index_h1_wrapper">
+          <h1>PORTFOLIO</h1>
+        </div>
+        <div class="wrapper">
+          <h2>Theme 12: Design for Developers</h2>
+          <div class="what_i_learned">
+            <div class="description">
+              <p>
+                To break down this theme, we worked on four major topics, and throughout these two weeks we gathered a good size toolbox to master a good visual presentation. First out we larned how
+                to work with and apply fonts and colors, and had a look at best practices for the portfolio format. In addition to master the art of font pairing and colorpalettes, we learned about
+                conventions for UI-cards, responsive design and different variations of animations. We also touched upon frameworks.
+              </p>
             </div>
-        </section>
-        <section id="second_section">
-            
-        </section>
-
-
-    </main>
-    <footer>
-      <div class="footer_wrapper">
-          <div class="footer_links">
-              <address>
-                Tomine Ødegård
-                <a href="mailto:tominneodegard@hotmail.no"
-                  >tomineodegard@hotmail.no</a
-                >
-                +47 97033835
-              </address>
+            <div class="graphics">
+              <img src="images/graphic1.png" alt="graphics" />
+            </div>
           </div>
-      </div>
+        </div>
+      </section>
+
+      <!-- FONTS AND CARDS -->
+      <section id="card_section">
+        <div class="fonts_and_cards card">
+          <h3 class="card_title">FONTS AND CARDS</h3>
+          <div class="card_wrapper">
+            <div class="card_content_left">
+              <h4>Key words:</h4>
+              <p>Serif, sans serif, display fonts, font pairing, font hierarchy, line height, base line, conventions, portfolio vs. landingpages, white space, alignment, repetition.</p>
+            </div>
+
+            <div class="card_content_right">
+              <div class="btn">
+                <a href="fonts_and_cards.html">READ MORE ABOUT THIS PROJECT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLORS AND ANIMATIONS -->
+        <div class="colors_and_animations card">
+          <h3 class="card_title">COLORS AND ANIMATIONS</h3>
+          <div class="card_wrapper">
+            <div class="card_content_left">
+              <h4>Key words:</h4>
+              <p>
+                Primary colors, secondary colors, CSS variables, hue, saturation, value, color schemes, the 60/30/10 rule, WAPI, keyframes, getBoundingClientRect, porperties, the 12 rules for
+                animation, local storage, dark mode, contrasts, accessibility, GSAP, scroll triggers.
+              </p>
+            </div>
+
+            <div class="card_content_right">
+              <div class="btn">
+                <a href="colors_and_animations.html">READ MORE ABOUT THIS PROJECT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RESPONSIVE DESIGN -->
+        <div class="responsive_design card">
+          <h3 class="card_title">RESPONSIVE DESIGN</h3>
+
+          <div class="card_wrapper">
+            <div class="card_content_left">
+              <h4>Key words:</h4>
+              <p>Media queries, mobile first, desktop first, responsive, grid, flex, flex-direction, column, row, align, wrap, components, layouts.</p>
+            </div>
+
+            <div class="card_content_right">
+              <div class="btn">
+                <a href="responsive_design.html">READ MORE ABOUT THIS PROJECT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DESIGNING WITH FRAMEWORKS -->
+
+        <div class="designing_with_frameworks card">
+          <h3 class="card_title">DESIGNING WITH FRAMEWORKS</h3>
+          <div class="card_wrapper">
+            <div class="card_content_left">
+              <h4>Key words:</h4>
+              <p>Bootstrap, Pico, Tailwind, containers, for building responsive designs, semantic html, a help or a limitation,</p>
+            </div>
+
+            <div class="card_content_right">
+              <div class="btn">
+                <a href="designing_with_frameworks.html">READ MORE ABOUT THIS PROJECT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="conclusive_section">
+        <div class="wrapper">
+          <h2>Reflection and conclusion</h2>
+        </div>
+        <div class="conclusion">
+          <p>
+            This theme has been a pleasure, I enjoyed the creative processes and learning new tools I can now add to my toolbox. There are some of the projects where I wish I had more time, but with a
+            busy schedule, you sometimes have to accept a result that is not completely perfect.
+          </p>
+          <div class="graphics">
+            <img src="images/graphic1.png" alt="graphics" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer_left">
+        <h4><a href="index.html" class="logo">TOMINE ØDEÅGRD</a></h4>
+        <ul>
+          <li><a href="mailto:tominneodegard@hotmail.no">tomineodegard@hotmail.no</a></li>
+          <li><a href="">+47 97033835</a></li>
+        </ul>
+      </section>
+      <section class="footer_right">
+        <div>
+          <ul>
+            <li><a href="https://www.instagram.com/tomineodegard/" target="blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/tomine-%C3%B8deg%C3%A5rd-7955b0194/" target="blank">LinkedIn</a></li>
+            <li><a href="https://github.com/tomineodegard-kea" target="blank">GitHub</a></li>
+            <li><a href="sayhello.html">Contact me</a></li>
+          </ul>
+        </div>
+      </section>
     </footer>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script> -->
     <script src="script.js"></script>
   </body>
 </html>
