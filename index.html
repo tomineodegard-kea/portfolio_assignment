@@ -20,31 +20,35 @@
       <nav>
         <div id="menu_btn">☰</div>
         <ul id="menu" class="hidden">
-          <li><a href="about.html">About</a></li>
+          <!-- TO DO LATER: make this a dropdown? -->
+          <li><a href="fonts_and_cards.html">Project 1</a></li>
+          <li><a href="colors_and_animations.html">Project 2</a></li>
+          <li><a href="responsive_design.html">Project 3</a></li>
+          <li><a href="designing_with_frameworks.html">Project 4</a></li>
           <li><a href="sayhello.html">Say hello</a></li>
+          <!-- <li><a href="about.html">About</a></li> -->
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="first_section card">
-        <div class="h1_wrapper index_h1_wrapper">
-          <h1>PORTFOLIO</h1>
-        </div>
-        <div class="wrapper">
-          <h2>Theme 12: Design for Developers</h2>
-          <div class="what_i_learned">
-            <div class="description">
-              <p>
-                To break down this theme, we worked on four major topics, and throughout these two weeks we gathered a good size toolbox to master a good visual presentation. First out we larned how
-                to work with and apply fonts and colors, and had a look at best practices for the portfolio format. In addition to master the art of font pairing and colorpalettes, we learned about
-                conventions for UI-cards, responsive design and different variations of animations. We also touched upon frameworks.
-              </p>
-            </div>
-            <div class="graphics">
-              <img src="images/graphic1.png" alt="graphics" />
-            </div>
+    <main id="index">
+      <section class="first_section_index card">
+        <!-- <div class="h1_wrapper index_h1_wrapper"> -->
+        <h1>PORTFOLIO</h1>
+        <!-- </div> -->
+        <!-- <div class="wrapper"> -->
+        <h2>Theme 12: Design for Developers</h2>
+        <div class="what_i_learned">
+          <p>
+            To break down this theme, we worked on four major topics, and throughout these two weeks we gathered a good size toolbox to master a good visual presentation. First out we larned how to
+            work with and apply fonts and colors, and had a look at best practices for the portfolio format. In addition to master the art of font pairing and colorpalettes, we learned about
+            conventions for UI-cards, responsive design and different variations of animations. We also touched upon frameworks.
+          </p>
+
+          <div class="graphics">
+            <img src="images/graphic1.png" alt="graphics" />
           </div>
         </div>
+        <!-- </div> -->
       </section>
 
       <!-- FONTS AND CARDS -->
@@ -58,9 +62,7 @@
             </div>
 
             <div class="card_content_right">
-              <div class="btn">
-                <a href="fonts_and_cards.html">READ MORE ABOUT THIS PROJECT</a>
-              </div>
+              <a href="fonts_and_cards.html" class="read_more_btn all_btns">READ MORE ABOUT THIS PROJECT</a>
             </div>
           </div>
         </div>
@@ -78,9 +80,7 @@
             </div>
 
             <div class="card_content_right">
-              <div class="btn">
-                <a href="colors_and_animations.html">READ MORE ABOUT THIS PROJECT</a>
-              </div>
+              <a href="colors_and_animations.html" class="read_more_btn all_btns">READ MORE ABOUT THIS PROJECT</a>
             </div>
           </div>
         </div>
@@ -96,9 +96,7 @@
             </div>
 
             <div class="card_content_right">
-              <div class="btn">
-                <a href="responsive_design.html">READ MORE ABOUT THIS PROJECT</a>
-              </div>
+              <a href="responsive_design.html" class="read_more_btn all_btns">READ MORE ABOUT THIS PROJECT</a>
             </div>
           </div>
         </div>
@@ -114,18 +112,14 @@
             </div>
 
             <div class="card_content_right">
-              <div class="btn">
-                <a href="designing_with_frameworks.html">READ MORE ABOUT THIS PROJECT</a>
-              </div>
+              <a href="designing_with_frameworks.html" class="read_more_btn all_btns">READ MORE ABOUT THIS PROJECT</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="conclusive_section">
-        <div class="wrapper">
-          <h2>Reflection and conclusion</h2>
-        </div>
+      <section class="conclusive_section">
+        <h2>In conclusion</h2>
         <div class="conclusion">
           <p>
             This theme has been a pleasure, I enjoyed the creative processes and learning new tools I can now add to my toolbox. There are some of the projects where I wish I had more time, but with a
@@ -158,8 +152,8 @@
       </section>
     </footer>
     <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
